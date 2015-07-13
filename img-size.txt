@@ -1,0 +1,2 @@
+LOGO cong ty: 165x50 px
+banner: 1541x566 px
