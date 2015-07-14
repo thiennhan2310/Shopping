@@ -9,10 +9,10 @@ include_once ('database.php');
 class bill {
     private $db='';
     private $bill=[];
-    public function bill($bill=[])
+    public function bill($Ma_Hoa_Don, $Tong_Tien, $Ngay_HD, $Ma_Khach_Hang,$Trang_Thai)
     {
         $this->db=new Database();
-        $this->bill=$bill;
+        $this->bill=[$Ma_Hoa_Don, $Tong_Tien, $Ngay_HD, $Ma_Khach_Hang,$Trang_Thai];
     }
     //`Ma_Hoa_Don`, `Tong_Tien`, `Ngay_HD`, `Ma_Khach_Hang`,'Trang Thai'
     public function add()

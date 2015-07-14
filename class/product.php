@@ -10,12 +10,12 @@ include_once ('database.php');
 include_once ('upload.php');
 class products{
     protected $db='';
-    public $product=[];
+    protected $product=[];
     private $upload='';
-    public function products($product=[])
+    public function products($Ma_San_Pham, $Ma_Loai, $Ma_Sale, $Ten_San_Pham, $Gia, $Hinh, $Thong_Tin, $Ngay_Cap_Nhat)
     {
     $this->db=new Database();
-    $this->product=$product;
+    $this->product=[$Ma_San_Pham, $Ma_Loai, $Ma_Sale, $Ten_San_Pham, $Gia, $Hinh, $Thong_Tin, $Ngay_Cap_Nhat];
     }
     //INSERT INTO `shop`.`san_pham` (`Ma_San_Pham`, `Ma_Loai`, `Ma_Sale`, `Ten_San_Pham`, `Gia`, `Hinh`, `Thong_Tin`, `Ngay_Cap_Nhat`) VALUES ('', '', '', '', '', '', '', '')
     public function add()

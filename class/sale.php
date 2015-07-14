@@ -11,10 +11,10 @@ class sale {
     protected $db='';
     public $sale=[];
 
-    public function sale($sale=[])
+    public function sale($Ma_Giam_Gia, $Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt)
     {
         $this->db=new Database();
-        $this->sale=$sale;
+        $this->sale=[$Ma_Giam_Gia, $Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt];
     }
     //`Ma_Giam_Gia`, `Phan_Tram`, `Thong_Tin`, `Thoi_gian_bd`, `Thoi_gian_kt`
     public function add()

@@ -9,10 +9,10 @@ include_once ('database.php');
 class customer {
     private $db='';
     private $customer=[];
-    public function customer($customer=[])
+    public function customer($Ma_Khach_Hang, $ID, $PW, $Ten_Khach_Hang,$Dia_Chi, $So_Dien_Thoai, $Email)
     {
         $this->db=new Database();
-        $this->customer=$customer;
+        $this->customer=[$Ma_Khach_Hang, $ID, $PW, $Ten_Khach_Hang,$Dia_Chi, $So_Dien_Thoai, $Email];
     }
     //`Ma_Khach_Hang`, `ID`, `PW`, `Ten_Khach_Hang`, `Dia_Chi`, `So_Dien_Thoai`, `Email`
     public function add()
