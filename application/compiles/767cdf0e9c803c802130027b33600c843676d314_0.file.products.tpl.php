@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-12 11:46:38
+<?php /* Smarty version 3.1.27, created on 2015-07-15 16:02:13
          compiled from "application\templates\products.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:3036655a2377ebc5c12_61662407%%*/
+/*%%SmartyHeaderCode:2298855a667e51d1350_52448412%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '767cdf0e9c803c802130027b33600c843676d314' => 
     array (
       0 => 'application\\templates\\products.tpl',
-      1 => 1436585625,
+      1 => 1436944285,
       2 => 'file',
     ),
     'beb73f380bab0780dfaddd173aa8703fd3a2a746' => 
@@ -21,7 +21,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '25218061187775fcf77e5182127a0acf61aa883b' => 
     array (
       0 => 'application\\templates\\content\\content-products.tpl',
-      1 => 1436585467,
+      1 => 1436968931,
+      2 => 'file',
+    ),
+    'cb08bf57340c6f887f507b2684f1914a624e73fa' => 
+    array (
+      0 => 'application\\templates\\aside.tpl',
+      1 => 1436615789,
       2 => 'file',
     ),
     'ca7a60b2fc6e5277113cfe413bb2c90b014e1353' => 
@@ -31,16 +37,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3036655a2377ebc5c12_61662407',
+  'nocache_hash' => '2298855a667e51d1350_52448412',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55a2377fa3caf2_25676922',
+  'unifunc' => 'content_55a667e5662f26_62052371',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55a2377fa3caf2_25676922')) {
-function content_55a2377fa3caf2_25676922 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55a667e5662f26_62052371')) {
+function content_55a667e5662f26_62052371 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '3036655a2377ebc5c12_61662407';
+$_smarty_tpl->properties['nocache_hash'] = '2298855a667e51d1350_52448412';
 ?>
 <!--A Design by W3layouts
 Author: W3layout
@@ -88,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1876455a2377f787fd8_93475228', 'content_55a2377f784ad9_77820660');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '900255a667e531a602_11828325', 'content_55a667e5316d94_99208059');
 /*  End of included template "header.tpl" */?>
 
     
@@ -100,7 +106,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 <div class="product">
     
         <?php /*  Call merged included template "content/content-products.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2423455a2377f888768_86678144', 'content_55a2377f87fce2_40425281');
+echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1810455a667e542ce32_86276840', 'content_55a667e54285c8_90199125');
 /*  End of included template "content/content-products.tpl" */?>
 
     
@@ -113,7 +119,7 @@ echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1183255a2377f9f2c06_58844947', 'content_55a2377f9ed068_77274818');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '573255a667e5625c18_83592598', 'content_55a667e5621788_44511565');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -123,12 +129,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 <?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:1876455a2377f787fd8_93475228%%*/
-if ($_valid && !is_callable('content_55a2377f784ad9_77820660')) {
-function content_55a2377f784ad9_77820660 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:900255a667e531a602_11828325%%*/
+if ($_valid && !is_callable('content_55a667e5316d94_99208059')) {
+function content_55a667e5316d94_99208059 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1876455a2377f787fd8_93475228';
+$_smarty_tpl->properties['nocache_hash'] = '900255a667e531a602_11828325';
 ?>
 <div class="header-top">
     <div class="container">
@@ -344,294 +350,204 @@ $_smarty_tpl->properties['nocache_hash'] = '1876455a2377f787fd8_93475228';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:1876455a2377f787fd8_93475228%%*/
+/*/%%SmartyNocache:900255a667e531a602_11828325%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:2423455a2377f888768_86678144%%*/
-if ($_valid && !is_callable('content_55a2377f87fce2_40425281')) {
-function content_55a2377f87fce2_40425281 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1842255a667e5451b34_63128591%%*/
+if ($_valid && !is_callable('content_55a667e544cb21_54984608')) {
+function content_55a667e544cb21_54984608 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2423455a2377f888768_86678144';
+$_smarty_tpl->properties['nocache_hash'] = '1842255a667e5451b34_63128591';
 ?>
+<div class=" rsidebar span_1_of_left">
+    <div class="of-left">
+        <h3 class="cate">SUB MENU</h3>
+    </div>
+    <ul class="menu">
+        <li class="item1"><a href="#">Men </a>
+            <ul class="cute">
+                <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                <li class="subitem3"><a href="#">Automatic Fails </a></li>
+            </ul>
+        </li>
+        <li class="item2"><a href="#">Women </a>
+            <ul class="cute">
+                <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                <li class="subitem3"><a href="#">Automatic Fails </a></li>
+            </ul>
+        </li>
+        <li class="item3"><a href="#">Kids</a>
+            <ul class="cute">
+                <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                <li class="subitem3"><a href="#">Automatic Fails</a></li>
+            </ul>
+        </li>
+        <li class="item4"><a href="#">Accesories</a>
+            <ul class="cute">
+                <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                <li class="subitem3"><a href="#">Automatic Fails</a></li>
+            </ul>
+        </li>
+
+        <li class="item4"><a href="#">Shoes</a>
+            <ul class="cute">
+                <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--initiate accordion-->
+<?php echo '<script'; ?>
+ type="text/javascript">
+    $(function() {
+        var menu_ul = $('.menu > li > ul'),
+                menu_a  = $('.menu > li > a');
+        menu_ul.hide();
+        menu_a.click(function(e) {
+            e.preventDefault();
+            if(!$(this).hasClass('active')) {
+                menu_a.removeClass('active');
+                menu_ul.filter(':visible').slideUp('normal');
+                $(this).addClass('active').next().stop(true,true).slideDown('normal');
+            } else {
+                $(this).removeClass('active');
+                $(this).next().stop(true,true).slideUp('normal');
+            }
+        });
+
+    });
+<?php echo '</script'; ?>
+>
+<!---->
+<div class="product-middle">
+    LOGO CONG TY
+
+</div>
+
+<!---->
+<div class="product-bottom">
+    <div class="of-left-in">
+        <h3 class="best">Best Sellers</h3>
+    </div>
+    <div class="product-go">
+        <div class=" fashion-grid">
+            <a href="#"><img class="img-responsive " src="images/p1.jpg" alt=""></a>
+
+        </div>
+        <div class=" fashion-grid1">
+            <h6 class="best2"><a href="#" >Lorem ipsum dolor sit
+                    amet consectetuer  </a></h6>
+
+            <span class=" price-in1">40000 VNĐ</span>
+        </div>
+
+        <div class="clearfix"> </div>
+    </div>
+    <div class="product-go">
+        <div class=" fashion-grid">
+            <a href="#"><img class="img-responsive " src="images/p2.jpg" alt=""></a>
+
+        </div>
+        <div class="fashion-grid1">
+            <h6 class="best2"><a href="#" >Lorem ipsum dolor sit
+                    amet consectetuer </a></h6>
+
+            <span class=" price-in1">40000 VNĐ</span>
+        </div>
+
+        <div class="clearfix"> </div>
+    </div>
+
+</div>
+<div class=" per1">
+    <a href="#" ><img class="img-responsive" src="images/pro.jpg" alt="">
+        <div class="six1">
+            <h4>HÌNH</h4>
+            <p>DISCOUNT CÙNG </p>
+            <span>HÀNG</span>
+        </div></a>
+</div>
+</div><?php
+/*/%%SmartyNocache:1842255a667e5451b34_63128591%%*/
+}
+}
+?><?php
+/*%%SmartyHeaderCode:1810455a667e542ce32_86276840%%*/
+if ($_valid && !is_callable('content_55a667e54285c8_90199125')) {
+function content_55a667e54285c8_90199125 ($_smarty_tpl) {
+?>
+<?php
+$_smarty_tpl->properties['nocache_hash'] = '1810455a667e542ce32_86276840';
+?>
+
 <div class="container">
     <div class="col-md-3 product-price">
+       <?php /*  Call merged included template "aside.tpl" */
+echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1842255a667e5451b34_63128591', 'content_55a667e544cb21_54984608');
+/*  End of included template "aside.tpl" */?>
 
-        <div class=" rsidebar span_1_of_left">
-            <div class="of-left">
-                <h3 class="cate">Categories</h3>
-            </div>
-            <ul class="menu">
-                <li class="item1"><a href="#">Men </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item2"><a href="#">Women </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item3"><a href="#">Kids</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
-                <li class="item4"><a href="#">Accesories</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
-
-                <li class="item4"><a href="#">Shoes</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!--initiate accordion-->
-        <?php echo '<script'; ?>
- type="text/javascript">
-            $(function() {
-                var menu_ul = $('.menu > li > ul'),
-                        menu_a  = $('.menu > li > a');
-                menu_ul.hide();
-                menu_a.click(function(e) {
-                    e.preventDefault();
-                    if(!$(this).hasClass('active')) {
-                        menu_a.removeClass('active');
-                        menu_ul.filter(':visible').slideUp('normal');
-                        $(this).addClass('active').next().stop(true,true).slideDown('normal');
-                    } else {
-                        $(this).removeClass('active');
-                        $(this).next().stop(true,true).slideUp('normal');
-                    }
-                });
-
-            });
-        <?php echo '</script'; ?>
->
-        <!---->
-        <div class="product-middle">
-
-            <div class="fit-top">
-                <h6 class="shop-top">Lorem Ipsum</h6>
-                <a href="single.html" class="shop-now">SHOP NOW</a>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <div class="sellers">
-            <div class="of-left-in">
-                <h3 class="tag">Tags</h3>
-            </div>
-            <div class="tags">
-                <ul>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">dress</a></li>
-
-                    <div class="clearfix"> </div>
-                </ul>
-
-            </div>
-
-        </div>
-        <!---->
-        <div class="product-bottom">
-            <div class="of-left-in">
-                <h3 class="best">Best Sellers</h3>
-            </div>
-            <div class="product-go">
-                <div class=" fashion-grid">
-                    <a href="single.html"><img class="img-responsive " src="images/p1.jpg" alt=""></a>
-
-                </div>
-                <div class=" fashion-grid1">
-                    <h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
-                            amet consectetuer  </a></h6>
-
-                    <span class=" price-in1"> $40.00</span>
-                </div>
-
-                <div class="clearfix"> </div>
-            </div>
-            <div class="product-go">
-                <div class=" fashion-grid">
-                    <a href="single.html"><img class="img-responsive " src="images/p2.jpg" alt=""></a>
-
-                </div>
-                <div class="fashion-grid1">
-                    <h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
-                            amet consectetuer </a></h6>
-
-                    <span class=" price-in1"> $40.00</span>
-                </div>
-
-                <div class="clearfix"> </div>
-            </div>
-
-        </div>
-        <div class=" per1">
-            <a href="single.html" ><img class="img-responsive" src="images/pro.jpg" alt="">
-                <div class="six1">
-                    <h4>DISCOUNT</h4>
-                    <p>Up to</p>
-                    <span>60%</span>
-                </div></a>
-        </div>
-    </div>
     <div class="col-md-9 product1">
-        <div class=" bottom-product">
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
+        <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['i']->step = 3;$_smarty_tpl->tpl_vars['i']->total = (int) ceil(($_smarty_tpl->tpl_vars['i']->step > 0 ? 8+1 - (0) : 0-(8)+1)/abs($_smarty_tpl->tpl_vars['i']->step));
+if ($_smarty_tpl->tpl_vars['i']->total > 0) {
+for ($_smarty_tpl->tpl_vars['i']->value = 0, $_smarty_tpl->tpl_vars['i']->iteration = 1;$_smarty_tpl->tpl_vars['i']->iteration <= $_smarty_tpl->tpl_vars['i']->total;$_smarty_tpl->tpl_vars['i']->value += $_smarty_tpl->tpl_vars['i']->step, $_smarty_tpl->tpl_vars['i']->iteration++) {
+$_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
+        <div class=" bottom-product"> 
+            <?php $_smarty_tpl->tpl_vars['j'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['j']->step = 1;$_smarty_tpl->tpl_vars['j']->total = (int) min(ceil(($_smarty_tpl->tpl_vars['j']->step > 0 ? 8+1 - ($_smarty_tpl->tpl_vars['i']->value) : $_smarty_tpl->tpl_vars['i']->value-(8)+1)/abs($_smarty_tpl->tpl_vars['j']->step)),3);
+if ($_smarty_tpl->tpl_vars['j']->total > 0) {
+for ($_smarty_tpl->tpl_vars['j']->value = $_smarty_tpl->tpl_vars['i']->value, $_smarty_tpl->tpl_vars['j']->iteration = 1;$_smarty_tpl->tpl_vars['j']->iteration <= $_smarty_tpl->tpl_vars['j']->total;$_smarty_tpl->tpl_vars['j']->value += $_smarty_tpl->tpl_vars['j']->step, $_smarty_tpl->tpl_vars['j']->iteration++) {
+$_smarty_tpl->tpl_vars['j']->first = $_smarty_tpl->tpl_vars['j']->iteration == 1;$_smarty_tpl->tpl_vars['j']->last = $_smarty_tpl->tpl_vars['j']->iteration == $_smarty_tpl->tpl_vars['j']->total;?>
+                <?php if ($_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Hinh != '') {?>
+            <div class="col-md-4 bottom-cd simpleCart_shelfItem"> 
                 <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi3.jpg" alt="">
+                    <a href="single.html"><img class="img-responsive" src="./image_products/<?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Hinh;?>
+" alt="">
                         <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
+                            <span class="buy-in">BUY NOW</span>
                         </div>
                     </a>
                 </div>
-                <p class="tun">It is a long established fact that a reader</p>
+                <p class="tun"><?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Ten_sua;?>
+</p>
                 <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
             </div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi1.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi4.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
-            <div class="clearfix"> </div>
-        </div>
-        <div class=" bottom-product">
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi5.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
-            </div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi1.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
-            <div class="clearfix"> </div>
-        </div>
-        <div class=" bottom-product">
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi3.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
+                <?php }?>
+            <?php }} ?>
 
-            </div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi4.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
-            </div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="images/pi5.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
-            </div>
+
             <div class="clearfix"> </div>
         </div>
+        <?php }} ?>
 
     </div>
     <div class="clearfix"> </div>
     <nav class="in">
-        <ul class="pagination">
-            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">2 <span class="sr-only"></span></a></li>
-            <li><a href="#">3 <span class="sr-only"></span></a></li>
-            <li><a href="#">4 <span class="sr-only"></span></a></li>
-            <li><a href="#">5 <span class="sr-only"></span></a></li>
-            <li> <a href="#" aria-label="Next"><span aria-hidden="true">»</span> </a> </li>
+       <ul class="pagination">
+        
+            <?php echo $_smarty_tpl->tpl_vars['link_trang']->value;?>
+
         </ul>
+
     </nav>
-</div><?php
-/*/%%SmartyNocache:2423455a2377f888768_86678144%%*/
+</div>
+<?php
+/*/%%SmartyNocache:1810455a667e542ce32_86276840%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1183255a2377f9f2c06_58844947%%*/
-if ($_valid && !is_callable('content_55a2377f9ed068_77274818')) {
-function content_55a2377f9ed068_77274818 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:573255a667e5625c18_83592598%%*/
+if ($_valid && !is_callable('content_55a667e5621788_44511565')) {
+function content_55a667e5621788_44511565 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1183255a2377f9f2c06_58844947';
+$_smarty_tpl->properties['nocache_hash'] = '573255a667e5625c18_83592598';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -673,7 +589,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1183255a2377f9f2c06_58844947';
 <div class="footer-class">
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div><?php
-/*/%%SmartyNocache:1183255a2377f9f2c06_58844947%%*/
+/*/%%SmartyNocache:573255a667e5625c18_83592598%%*/
 }
 }
 ?>

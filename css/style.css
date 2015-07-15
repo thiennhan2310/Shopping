@@ -1060,6 +1060,11 @@ p.tun{
 .product-at{
 	position: relative;
 }
+.product-at a img
+{
+    width:255px;
+    height: 259px;
+}
 .product-at:hover .pro-grid{
 	display:block;
 }

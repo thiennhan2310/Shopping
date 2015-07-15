@@ -43,41 +43,42 @@ class Pager
 ***********************************************************************************/
 	function pageList($curpage, $pages,$dk=NULL)
 	{
-		
+
 		/* In page dau tien va nhung link toi page truoc neu can */
 		if (($curpage != 1) && ($curpage))
 		{
-			$page_list .= " <a href=\"".$_SERVER['PHP_SELF']."?page=1&{$dk}\" title=\"page đầu\"><<</a> ";
+		/*	$page_list .= " <a href=\"".$_SERVER['PHP_SELF']."?page=1&{$dk}\" title=\"page đầu\"><<</a> ";*/
 		}
 	
 		if (($curpage-1) > 0)
-		{
-			$page_list .= "<a href=\"".$_SERVER['PHP_SELF']."?page=".($curpage-1)."&{$dk}\" title=\"Về page trước\"><</a> ";
+		{ /*<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>*/
+			$page_list .= "<li><a href=\"".$_SERVER['PHP_SELF']."?page=".($curpage-1)."&{$dk}\" title=\"Về page trước\" aria-label=\"Previous\"><span aria-hidden=\"true\">«</span></a></li> ";
 		}
 	
 		/* In ra danh sach cac page va lam cho page hien tai dam hon va mat link o chan*/
 		for ($i=1; $i<=$pages; $i++)
-		{
+		{ /*<li><a href="#">2 <span class="sr-only"></span></a></li>*/
 			if ($i == $curpage)
 			{
-				$page_list .= "<b>".$i."</b>";
+				$page_list .= "<li class=\"active\"><a href=\"#\">".$i." <span class=\"sr-only\"></span></a></li>";
+;
 			}
 			else
 			{
-				$page_list .= "<a href=\"".$_SERVER['PHP_SELF']."?page=".$i."&{$dk}\" title=\"page ".$i."\">".$i."</a>";
+				$page_list .= "<li><a href=\"".$_SERVER['PHP_SELF']."?page=".$i."&{$dk}\" title=\"page ".$i."\">".$i."<span class=\"sr-only\"></a></li>";
 			}
 			$page_list .= " ";
 		}
 
 		/* In linh cua page tiep theo va page cuoi cung neu can*/
 		if (($curpage+1) <= $pages)
-		{
-			$page_list .= "<a href=\"".$_SERVER['PHP_SELF']."?page=".($curpage+1)."&{$dk}\" title=\"Dến page sau\">></a> ";
+		{ /*<li> <a href="#" aria-label="Next"><span aria-hidden="true">»</span> </a> </li>*/
+			$page_list .= "<li><a aria-label=\"Next\" href=\"".$_SERVER['PHP_SELF']."?page=".($curpage+1)."&{$dk}\" title=\"Dến page sau\"><span aria-hidden=\"true\">»</span></a> </li>";
 		}
 		
 		if (($curpage != $pages) && ($pages != 0))
 		{
-			$page_list .= "<a href=\"".$_SERVER['PHP_SELF']."?page=".$pages."&{$dk}\" title=\"page cuối\">>></a> ";
+			/*$page_list .= "<a href=\"".$_SERVER['PHP_SELF']."?page=".$pages."&{$dk}\" title=\"page cuối\">>></a> ";*/
 		}
 		$page_list .= "</td>\n";
 
