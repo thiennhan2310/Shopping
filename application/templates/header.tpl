@@ -29,7 +29,7 @@
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">

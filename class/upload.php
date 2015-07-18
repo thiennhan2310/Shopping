@@ -11,9 +11,9 @@ class upload{
     private $name='';
     private $path='./products/';
 
-   public function upload($file)
+   public function upload($input_name)
     {
-        $this->name=$file;
+        $this->name=$input_name;
     }
 
     public function add_products()
@@ -22,10 +22,11 @@ class upload{
         $uploads=$this->path.$this->name;
         move_uploaded_file($_FILES['hinh']['tmp_name'],$uploads);
     }
-    public function change_logo()
+    public function change_logo($output_name)
     {
-        $uploads='./images/'.$this->name;
-        move_uploaded_file($_FILES['hinh']['tmp_name'],$uploads);
+        $uploads='./images/'.$output_name;
+        unlink($uploads);
+        move_uploaded_file($_FILES[$this->name]['tmp_name'],$uploads);
     }
     public function del_products()
     {

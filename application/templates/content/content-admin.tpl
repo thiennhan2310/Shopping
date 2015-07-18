@@ -1,45 +1,18 @@
 <div class="container">
     <div class="col-md-3 product-price">
-
         <div class=" rsidebar span_1_of_left">
             <div class="of-left">
-                <h3 class="cate">Categories</h3>
+                <h3 class="cate">Mục Lục</h3>
             </div>
             <ul class="menu">
-                <li class="item1"><a href="#">Men </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item2"><a href="#">Women </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item3"><a href="#">Kids</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
-                <li class="item4"><a href="#">Accesories</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
+                <li class="item1"><a href="#" id="index">Trang Chủ </a>
 
-                <li class="item4"><a href="#">Shoes</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
+                </li>
+                <li class="item2"><a href="#">Sản Phẩm </a>
+                 <ul class="cute">
+                        <li class="subitem1"><a href="#" id="add_products">Thêm Sản Phẩm </a></li>
+                        <li class="subitem2"><a href="#"  id="del_products">Xóa Sản phẩm </a></li>
+                        <li class="subitem3"><a href="#" id="update_products">Sửa Thông Tin </a></li>
                     </ul>
                 </li>
             </ul>
@@ -74,77 +47,34 @@
             </div>*}
         </div>
         <div class="sellers">
-            {*<div class="of-left-in">
-                <h3 class="tag">Tags</h3>
-            </div>
-            <div class="tags">
-                <ul>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">dress</a></li>
-                    <li><a href="#">design</a></li>
-                    <li><a href="#">fashion</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">dress</a></li>
 
-                    <div class="clearfix"> </div>
-                </ul>
-
-            </div>*}
 
         </div>
         <!---->
         <div class="product-bottom">
-          {*  <div class="of-left-in">
-                <h3 class="best">Best Sellers</h3>
-            </div>
-            <div class="product-go">
-                <div class=" fashion-grid">
-                    <a href="single.html"><img class="img-responsive " src="images/p1.jpg" alt=""></a>
-
-                </div>
-                <div class=" fashion-grid1">
-                    <h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
-                            amet consectetuer  </a></h6>
-
-                    <span class=" price-in1"> $40.00</span>
-                </div>
-
-                <div class="clearfix"> </div>
-            </div>
-            <div class="product-go">
-                <div class=" fashion-grid">
-                    <a href="single.html"><img class="img-responsive " src="images/p2.jpg" alt=""></a>
-
-                </div>
-                <div class="fashion-grid1">
-                    <h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
-                            amet consectetuer </a></h6>
-
-                    <span class=" price-in1"> $40.00</span>
-                </div>
-
-                <div class="clearfix"> </div>
-            </div>*}
-
         </div>
-       {* <div class=" per1">
-            <a href="single.html" ><img class="img-responsive" src="images/pro.jpg" alt="">
-                <div class="six1">
-                    <h4>DISCOUNT</h4>
-                    <p>Up to</p>
-                    <span>60%</span>
-                </div></a>
-        </div>*}
-    </div>
-    <div class="col-md-9 product1">
-            {*ajax load admin control*}
 
+    </div>
+    <div class="col-md-9 product1" style="font-size: 1.1em">
+            {*ajax load admin control*}
+            <script>
+                $('document').ready(function()
+                {   $('div .product1').load('./admin/index_admin.php');
+                    $('#index').click(function () {
+                        $('div .product1').load('./admin/index_admin.php');
+                    });
+                    $('#add_products').click(function () {
+                        $('div .product1').load('./admin/add_products.php');
+                    });
+                    $('#del_products').click(function () {
+                        $('div .product1').load('del_products.html');
+                    });
+                    $('#update_products').click(function () {
+                        $('div .product1').load('update_products.html');
+                    });
+                });
+            </script>
+        {*End of Ajax*}
 
 
     </div>

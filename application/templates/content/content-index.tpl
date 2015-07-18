@@ -3,69 +3,69 @@
         <h1>HÀNG MỚI & SALE</h1>
         <div class="grid-in">
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo1.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 1</span>
+                            <span>{$logo[0]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
 
 
-                <p><a href="single.html">LOGO 1</a></p>
+                <p><a href="single.html">{$logo[0]->Chu_thich2}</a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi1.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo2.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 2</span>
+                            <span>{$logo[1]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html">LOGO 2</a></p>
+                <p><a href="single.html">{$logo[1]->Chu_thich2}</a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi2.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo3.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 3</span>
+                            <span>{$logo[2]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html">LOGO 3</a></p>
+                <p><a href="single.html">{$logo[2]->Chu_thich2}</a></p>
             </div>
             <div class="clearfix"> </div>
         </div>
         <div class="grid-in">
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi3.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo4.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 4</span>
+                            <span>{$logo[3]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html">LOGO 4</a></p>
+                <p><a href="single.html">{$logo[3]->Chu_thich2}</a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi4.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo5.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 5</span>
+                            <span>{$logo[4]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html">LOGO 5</a></p>
+                <p><a href="single.html">{$logo[4]->Chu_thich2}</a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi5.jpg" alt="">
+                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo6.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
-                            <span>LOGO 6</span>
+                            <span>{$logo[5]->Chu_thich1}</span>
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html">LOGO 6</a></p>
+                <p><a href="single.html">{$logo[5]->Chu_thich2}</a></p>
             </div>
             <div class="clearfix"> </div>
         </div>

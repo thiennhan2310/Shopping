@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-14 11:13:57
+<?php /* Smarty version 3.1.27, created on 2015-07-18 10:48:52
          compiled from "application\templates\admin.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:93155a4d2d582c7c6_61276815%%*/
+/*%%SmartyHeaderCode:1784055aa12f4687e62_26462449%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,19 +9,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '79c96ce0c91b409ffcaef5cda408edc2b54e39da' => 
     array (
       0 => 'application\\templates\\admin.tpl',
-      1 => 1436864605,
+      1 => 1437016779,
       2 => 'file',
     ),
     'beb73f380bab0780dfaddd173aa8703fd3a2a746' => 
     array (
       0 => 'application\\templates\\header.tpl',
-      1 => 1436693333,
+      1 => 1437039815,
       2 => 'file',
     ),
     'a03e5e3911e42c1e1c8de007ed487dd15f6e2d06' => 
     array (
       0 => 'application\\templates\\content\\content-admin.tpl',
-      1 => 1436865236,
+      1 => 1437209328,
       2 => 'file',
     ),
     'ca7a60b2fc6e5277113cfe413bb2c90b014e1353' => 
@@ -31,16 +31,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '93155a4d2d582c7c6_61276815',
+  'nocache_hash' => '1784055aa12f4687e62_26462449',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55a4d2d5c2d444_55631502',
+  'unifunc' => 'content_55aa12f4b86092_72277234',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55a4d2d5c2d444_55631502')) {
-function content_55a4d2d5c2d444_55631502 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55aa12f4b86092_72277234')) {
+function content_55aa12f4b86092_72277234 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '93155a4d2d582c7c6_61276815';
+$_smarty_tpl->properties['nocache_hash'] = '1784055aa12f4687e62_26462449';
 ?>
 <!--A Design by W3layouts
 Author: W3layout
@@ -88,7 +88,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '879355a4d2d59a8324_50606402', 'content_55a4d2d59a21b9_41130116');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '299055aa12f492ca61_75035871', 'content_55aa12f49268f3_08117681');
 /*  End of included template "header.tpl" */?>
 
     
@@ -100,7 +100,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 <div class="product">
     
         <?php /*  Call merged included template "content/content-admin.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("content/content-admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1407955a4d2d5af9297_67291913', 'content_55a4d2d5af39b7_34931603');
+echo $_smarty_tpl->getInlineSubTemplate("content/content-admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '329255aa12f4a36cf3_10356275', 'content_55aa12f4a32073_02826232');
 /*  End of included template "content/content-admin.tpl" */?>
 
     
@@ -113,7 +113,7 @@ echo $_smarty_tpl->getInlineSubTemplate("content/content-admin.tpl", $_smarty_tp
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '283755a4d2d5bd6879_05343789', 'content_55a4d2d5bd0c64_55443812');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1349855aa12f4b27c91_47620349', 'content_55aa12f4b237a0_85978467');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -123,12 +123,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 <?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:879355a4d2d59a8324_50606402%%*/
-if ($_valid && !is_callable('content_55a4d2d59a21b9_41130116')) {
-function content_55a4d2d59a21b9_41130116 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:299055aa12f492ca61_75035871%%*/
+if ($_valid && !is_callable('content_55aa12f49268f3_08117681')) {
+function content_55aa12f49268f3_08117681 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '879355a4d2d59a8324_50606402';
+$_smarty_tpl->properties['nocache_hash'] = '299055aa12f492ca61_75035871';
 ?>
 <div class="header-top">
     <div class="container">
@@ -161,7 +161,7 @@ $_smarty_tpl->properties['nocache_hash'] = '879355a4d2d59a8324_50606402';
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">
@@ -344,59 +344,32 @@ $_smarty_tpl->properties['nocache_hash'] = '879355a4d2d59a8324_50606402';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:879355a4d2d59a8324_50606402%%*/
+/*/%%SmartyNocache:299055aa12f492ca61_75035871%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1407955a4d2d5af9297_67291913%%*/
-if ($_valid && !is_callable('content_55a4d2d5af39b7_34931603')) {
-function content_55a4d2d5af39b7_34931603 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:329255aa12f4a36cf3_10356275%%*/
+if ($_valid && !is_callable('content_55aa12f4a32073_02826232')) {
+function content_55aa12f4a32073_02826232 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1407955a4d2d5af9297_67291913';
+$_smarty_tpl->properties['nocache_hash'] = '329255aa12f4a36cf3_10356275';
 ?>
 <div class="container">
     <div class="col-md-3 product-price">
-
         <div class=" rsidebar span_1_of_left">
             <div class="of-left">
-                <h3 class="cate">Categories</h3>
+                <h3 class="cate">Mục Lục</h3>
             </div>
             <ul class="menu">
-                <li class="item1"><a href="#">Men </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item2"><a href="#">Women </a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails </a></li>
-                    </ul>
-                </li>
-                <li class="item3"><a href="#">Kids</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
-                <li class="item4"><a href="#">Accesories</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="single.html">Automatic Fails</a></li>
-                    </ul>
-                </li>
+                <li class="item1"><a href="#" id="index">Trang Chủ </a>
 
-                <li class="item4"><a href="#">Shoes</a>
-                    <ul class="cute">
-                        <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-                        <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-                        <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
+                </li>
+                <li class="item2"><a href="#">Sản Phẩm </a>
+                 <ul class="cute">
+                        <li class="subitem1"><a href="#" id="add_products">Thêm Sản Phẩm </a></li>
+                        <li class="subitem2"><a href="#"  id="del_products">Xóa Sản phẩm </a></li>
+                        <li class="subitem3"><a href="#" id="update_products">Sửa Thông Tin </a></li>
                     </ul>
                 </li>
             </ul>
@@ -429,35 +402,52 @@ $_smarty_tpl->properties['nocache_hash'] = '1407955a4d2d5af9297_67291913';
             
         </div>
         <div class="sellers">
-            
+
 
         </div>
         <!---->
         <div class="product-bottom">
-          
-
         </div>
-       
-    </div>
-    <div class="col-md-9 product1">
-            
 
+    </div>
+    <div class="col-md-9 product1" style="font-size: 1.1em">
+            
+            <?php echo '<script'; ?>
+>
+                $('document').ready(function()
+                {   $('div .product1').load('./admin/index_admin.php');
+                    $('#index').click(function () {
+                        $('div .product1').load('./admin/index_admin.php');
+                    });
+                    $('#add_products').click(function () {
+                        $('div .product1').load('./admin/add_products.php');
+                    });
+                    $('#del_products').click(function () {
+                        $('div .product1').load('del_products.html');
+                    });
+                    $('#update_products').click(function () {
+                        $('div .product1').load('update_products.html');
+                    });
+                });
+            <?php echo '</script'; ?>
+>
+        
 
 
     </div>
     <div class="clearfix"> </div>
-    
+
 </div><?php
-/*/%%SmartyNocache:1407955a4d2d5af9297_67291913%%*/
+/*/%%SmartyNocache:329255aa12f4a36cf3_10356275%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:283755a4d2d5bd6879_05343789%%*/
-if ($_valid && !is_callable('content_55a4d2d5bd0c64_55443812')) {
-function content_55a4d2d5bd0c64_55443812 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1349855aa12f4b27c91_47620349%%*/
+if ($_valid && !is_callable('content_55aa12f4b237a0_85978467')) {
+function content_55aa12f4b237a0_85978467 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '283755a4d2d5bd6879_05343789';
+$_smarty_tpl->properties['nocache_hash'] = '1349855aa12f4b27c91_47620349';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -499,7 +489,7 @@ $_smarty_tpl->properties['nocache_hash'] = '283755a4d2d5bd6879_05343789';
 <div class="footer-class">
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div><?php
-/*/%%SmartyNocache:283755a4d2d5bd6879_05343789%%*/
+/*/%%SmartyNocache:1349855aa12f4b27c91_47620349%%*/
 }
 }
 ?>

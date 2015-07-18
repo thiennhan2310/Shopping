@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-15 16:02:13
+<?php /* Smarty version 3.1.27, created on 2015-07-17 17:18:07
          compiled from "application\templates\products.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:2298855a667e51d1350_52448412%%*/
+/*%%SmartyHeaderCode:3211755a91caf650052_23127269%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -15,7 +15,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'beb73f380bab0780dfaddd173aa8703fd3a2a746' => 
     array (
       0 => 'application\\templates\\header.tpl',
-      1 => 1436693333,
+      1 => 1437039815,
       2 => 'file',
     ),
     '25218061187775fcf77e5182127a0acf61aa883b' => 
@@ -37,16 +37,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2298855a667e51d1350_52448412',
+  'nocache_hash' => '3211755a91caf650052_23127269',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55a667e5662f26_62052371',
+  'unifunc' => 'content_55a91cafdb8485_89433677',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55a667e5662f26_62052371')) {
-function content_55a667e5662f26_62052371 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55a91cafdb8485_89433677')) {
+function content_55a91cafdb8485_89433677 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2298855a667e51d1350_52448412';
+$_smarty_tpl->properties['nocache_hash'] = '3211755a91caf650052_23127269';
 ?>
 <!--A Design by W3layouts
 Author: W3layout
@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '900255a667e531a602_11828325', 'content_55a667e5316d94_99208059');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2802755a91caf8e68c1_07481669', 'content_55a91caf8e27e0_39121625');
 /*  End of included template "header.tpl" */?>
 
     
@@ -106,7 +106,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 <div class="product">
     
         <?php /*  Call merged included template "content/content-products.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1810455a667e542ce32_86276840', 'content_55a667e54285c8_90199125');
+echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '3172955a91cafa45ec5_92826757', 'content_55a91cafa40567_32422182');
 /*  End of included template "content/content-products.tpl" */?>
 
     
@@ -119,7 +119,7 @@ echo $_smarty_tpl->getInlineSubTemplate("content/content-products.tpl", $_smarty
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '573255a667e5625c18_83592598', 'content_55a667e5621788_44511565');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2615755a91cafd75126_55244580', 'content_55a91cafd70973_25785005');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -129,12 +129,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 <?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:900255a667e531a602_11828325%%*/
-if ($_valid && !is_callable('content_55a667e5316d94_99208059')) {
-function content_55a667e5316d94_99208059 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2802755a91caf8e68c1_07481669%%*/
+if ($_valid && !is_callable('content_55a91caf8e27e0_39121625')) {
+function content_55a91caf8e27e0_39121625 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '900255a667e531a602_11828325';
+$_smarty_tpl->properties['nocache_hash'] = '2802755a91caf8e68c1_07481669';
 ?>
 <div class="header-top">
     <div class="container">
@@ -167,7 +167,7 @@ $_smarty_tpl->properties['nocache_hash'] = '900255a667e531a602_11828325';
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">
@@ -350,16 +350,16 @@ $_smarty_tpl->properties['nocache_hash'] = '900255a667e531a602_11828325';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:900255a667e531a602_11828325%%*/
+/*/%%SmartyNocache:2802755a91caf8e68c1_07481669%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1842255a667e5451b34_63128591%%*/
-if ($_valid && !is_callable('content_55a667e544cb21_54984608')) {
-function content_55a667e544cb21_54984608 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2619955a91cafac6ee9_10820387%%*/
+if ($_valid && !is_callable('content_55a91cafac2455_98699785')) {
+function content_55a91cafac2455_98699785 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1842255a667e5451b34_63128591';
+$_smarty_tpl->properties['nocache_hash'] = '2619955a91cafac6ee9_10820387';
 ?>
 <div class=" rsidebar span_1_of_left">
     <div class="of-left">
@@ -476,22 +476,22 @@ $_smarty_tpl->properties['nocache_hash'] = '1842255a667e5451b34_63128591';
         </div></a>
 </div>
 </div><?php
-/*/%%SmartyNocache:1842255a667e5451b34_63128591%%*/
+/*/%%SmartyNocache:2619955a91cafac6ee9_10820387%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1810455a667e542ce32_86276840%%*/
-if ($_valid && !is_callable('content_55a667e54285c8_90199125')) {
-function content_55a667e54285c8_90199125 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:3172955a91cafa45ec5_92826757%%*/
+if ($_valid && !is_callable('content_55a91cafa40567_32422182')) {
+function content_55a91cafa40567_32422182 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1810455a667e542ce32_86276840';
+$_smarty_tpl->properties['nocache_hash'] = '3172955a91cafa45ec5_92826757';
 ?>
 
 <div class="container">
     <div class="col-md-3 product-price">
        <?php /*  Call merged included template "aside.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1842255a667e5451b34_63128591', 'content_55a667e544cb21_54984608');
+echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2619955a91cafac6ee9_10820387', 'content_55a91cafac2455_98699785');
 /*  End of included template "aside.tpl" */?>
 
     <div class="col-md-9 product1">
@@ -538,16 +538,16 @@ $_smarty_tpl->tpl_vars['j']->first = $_smarty_tpl->tpl_vars['j']->iteration == 1
     </nav>
 </div>
 <?php
-/*/%%SmartyNocache:1810455a667e542ce32_86276840%%*/
+/*/%%SmartyNocache:3172955a91cafa45ec5_92826757%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:573255a667e5625c18_83592598%%*/
-if ($_valid && !is_callable('content_55a667e5621788_44511565')) {
-function content_55a667e5621788_44511565 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2615755a91cafd75126_55244580%%*/
+if ($_valid && !is_callable('content_55a91cafd70973_25785005')) {
+function content_55a91cafd70973_25785005 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '573255a667e5625c18_83592598';
+$_smarty_tpl->properties['nocache_hash'] = '2615755a91cafd75126_55244580';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -589,7 +589,7 @@ $_smarty_tpl->properties['nocache_hash'] = '573255a667e5625c18_83592598';
 <div class="footer-class">
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div><?php
-/*/%%SmartyNocache:573255a667e5625c18_83592598%%*/
+/*/%%SmartyNocache:2615755a91cafd75126_55244580%%*/
 }
 }
 ?>

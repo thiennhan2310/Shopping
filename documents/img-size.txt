@@ -1,3 +1,4 @@
 LOGO cong ty: 165x50 px
 banner: 1541x566 px
 hinh san pham: 255x259px
+6 logo: 350x356px
