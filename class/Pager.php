@@ -1,4 +1,4 @@
-﻿  <?php
+  <?php
 /**************************************************************************************
 * Class: Pager
 * Methods:
@@ -43,7 +43,7 @@ class Pager
 ***********************************************************************************/
 	function pageList($curpage, $pages,$dk=NULL)
 	{
-
+        $page_list='';
 		/* In page dau tien va nhung link toi page truoc neu can */
 		if (($curpage != 1) && ($curpage))
 		{

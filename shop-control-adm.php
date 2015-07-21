@@ -39,6 +39,7 @@ if(isset($_POST['apdung-index']))
         $db->execute($logo);
 
     }
+    $smarty->display('admin.tpl');
 }
 else if(isset($_POST['Them']))
 {
@@ -49,20 +50,14 @@ else if(isset($_POST['Them']))
     $hinh=$_FILES['Hinh']['name'];
     $gia=$_POST['gia'];
     $thong_tin=$_POST['thong_tin'];
-    if($giam_gia=='khác')
-    {
-        $phan_tram=$_POST['phan_tram'];
-        $thong_tin=$_POST['thong_tin'];
-        $start=$_POST['start'];
-        $end=$_POST['end'];
-        include ('./class/sale');
-        $sale=new sale()
-    }
     $san_pham=new products($ma_san_pham,$loai,$giam_gia,$ten_san_pham,$gia,$hinh,$thong_tin,date('Y-m-d'));
     $san_pham->add();
+    $upload=new upload($hinh);
+    $upload->add_products();
+    $smarty->display('admin.tpl');
 }
 
 
+    $smarty->display('admin.tpl');
 
-$smarty->display('admin.tpl');
 ?>

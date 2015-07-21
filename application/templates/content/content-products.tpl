@@ -1,4 +1,3 @@
-
 <div class="container">
     <div class="col-md-3 product-price">
        {include file="aside.tpl"}
@@ -9,7 +8,7 @@
                 {if $ds[$j]->Hinh != ''}
             <div class="col-md-4 bottom-cd simpleCart_shelfItem"> {*td=3*}
                 <div class="product-at ">
-                    <a href="single.html"><img class="img-responsive" src="./image_products/{$ds[$j]->Hinh}" alt="">
+                    <a href="detail.php"><img class="img-responsive" src="./image_products/{$ds[$j]->Hinh}" alt="">
                         <div class="pro-grid">
                             <span class="buy-in">BUY NOW</span>
                         </div>

@@ -1,14 +1,14 @@
-﻿<?php
+<?php
 class Database
 {
     protected $pdo='';
     protected $sql='';
     protected $stateMent='';
-    public function Database()
+    public function Database($db='shop')
     {
         try
         {
-        $this->pdo=new PDO('mysql:host=localhost; dbname=shop','root','');
+        $this->pdo=new PDO('mysql:host=localhost; dbname='.$db.'','root','');
         $this->pdo->query('set names utf8');
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         }

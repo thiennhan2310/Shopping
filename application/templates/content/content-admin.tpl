@@ -8,30 +8,28 @@
                 <li class="item1"><a href="#" id="index">Trang Chủ </a>
 
                 </li>
-                <li class="item2"><a href="#">Sản Phẩm </a>
-                 <ul class="cute">
+                <li class="item2"><a href="#" id="products">Sản Phẩm </a>
+                    <ul class="cute">
                         <li class="subitem1"><a href="#" id="add_products">Thêm Sản Phẩm </a></li>
-                        <li class="subitem2"><a href="#"  id="del_products">Xóa Sản phẩm </a></li>
-                        <li class="subitem3"><a href="#" id="update_products">Sửa Thông Tin </a></li>
                     </ul>
                 </li>
             </ul>
         </div>
         <!--initiate accordion-->
         <script type="text/javascript">
-            $(function() {
+            $(function () {
                 var menu_ul = $('.menu > li > ul'),
-                        menu_a  = $('.menu > li > a');
+                        menu_a = $('.menu > li > a');
                 menu_ul.hide();
-                menu_a.click(function(e) {
+                menu_a.click(function (e) {
                     e.preventDefault();
-                    if(!$(this).hasClass('active')) {
+                    if (!$(this).hasClass('active')) {
                         menu_a.removeClass('active');
                         menu_ul.filter(':visible').slideUp('normal');
-                        $(this).addClass('active').next().stop(true,true).slideDown('normal');
+                        $(this).addClass('active').next().stop(true, true).slideDown('normal');
                     } else {
                         $(this).removeClass('active');
-                        $(this).next().stop(true,true).slideUp('normal');
+                        $(this).next().stop(true, true).slideUp('normal');
                     }
                 });
 
@@ -56,28 +54,25 @@
 
     </div>
     <div class="col-md-9 product1" style="font-size: 1.1em">
-            {*ajax load admin control*}
-            <script>
-                $('document').ready(function()
-                {   $('div .product1').load('./admin/index_admin.php');
-                    $('#index').click(function () {
-                        $('div .product1').load('./admin/index_admin.php');
-                    });
-                    $('#add_products').click(function () {
-                        $('div .product1').load('./admin/add_products.php');
-                    });
-                    $('#del_products').click(function () {
-                        $('div .product1').load('del_products.html');
-                    });
-                    $('#update_products').click(function () {
-                        $('div .product1').load('update_products.html');
-                    });
+        {*ajax load admin control*}
+        <script>
+            $('document').ready(function () {
+                $('div .product1').load('./admin/index_admin.php');
+                $('#index').click(function () {
+                    $('div .product1').load('./admin/index_admin.php');
                 });
-            </script>
+                $('#add_products').click(function () {
+                    $('div .product1').load('./admin/add_products.php');
+                });
+                $('#products').click(function () {
+                    $('div .product1').load('./admin/list_products.php');
+                });
+            });
+        </script>
         {*End of Ajax*}
 
 
     </div>
-    <div class="clearfix"> </div>
+    <div class="clearfix"></div>
 
 </div>

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-12 11:48:15
+<?php /* Smarty version 3.1.27, created on 2015-07-20 05:18:51
          compiled from "application\templates\detail.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:2599655a237df69d936_68376731%%*/
+/*%%SmartyHeaderCode:3025055ac689bc95b53_12439599%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'beb73f380bab0780dfaddd173aa8703fd3a2a746' => 
     array (
       0 => 'application\\templates\\header.tpl',
-      1 => 1436693333,
+      1 => 1437039815,
       2 => 'file',
     ),
     '2ac4305e6cc9b79d27754ec623d74bebf37b7e2d' => 
     array (
       0 => 'application\\templates\\content\\content-detail.tpl',
-      1 => 1436615777,
+      1 => 1437279555,
       2 => 'file',
     ),
     'cb08bf57340c6f887f507b2684f1914a624e73fa' => 
@@ -33,20 +33,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ca7a60b2fc6e5277113cfe413bb2c90b014e1353' => 
     array (
       0 => 'application\\templates\\footer.tpl',
-      1 => 1436694047,
+      1 => 1437361184,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2599655a237df69d936_68376731',
+  'nocache_hash' => '3025055ac689bc95b53_12439599',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55a237dfc149e1_50482603',
+  'unifunc' => 'content_55ac689c0e7384_28169267',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55a237dfc149e1_50482603')) {
-function content_55a237dfc149e1_50482603 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55ac689c0e7384_28169267')) {
+function content_55ac689c0e7384_28169267 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2599655a237df69d936_68376731';
+$_smarty_tpl->properties['nocache_hash'] = '3025055ac689bc95b53_12439599';
 ?>
 <!--A Design by W3layouts 
 Author: W3layout
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2993055a237df86ce42_69578603', 'content_55a237df868bd2_98449861');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2092055ac689bddfcf6_20376110', 'content_55ac689bddc228_22893248');
 /*  End of included template "header.tpl" */?>
 
     
@@ -111,7 +111,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 <div class="product">
     
         <?php /*  Call merged included template "content/content-detail.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("content/content-detail.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2008855a237df998101_45711517', 'content_55a237df950de8_61038331');
+echo $_smarty_tpl->getInlineSubTemplate("content/content-detail.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1919055ac689bed9b74_71640129', 'content_55ac689bed5951_62038348');
 /*  End of included template "content/content-detail.tpl" */?>
 
     
@@ -120,7 +120,7 @@ echo $_smarty_tpl->getInlineSubTemplate("content/content-detail.tpl", $_smarty_t
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2307655a237dfbd47f7_73955734', 'content_55a237dfbcf9f6_03916675');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '832255ac689c0a94e0_62282475', 'content_55ac689c0a5752_92626874');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -130,12 +130,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 			<?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:2993055a237df86ce42_69578603%%*/
-if ($_valid && !is_callable('content_55a237df868bd2_98449861')) {
-function content_55a237df868bd2_98449861 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2092055ac689bddfcf6_20376110%%*/
+if ($_valid && !is_callable('content_55ac689bddc228_22893248')) {
+function content_55ac689bddc228_22893248 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2993055a237df86ce42_69578603';
+$_smarty_tpl->properties['nocache_hash'] = '2092055ac689bddfcf6_20376110';
 ?>
 <div class="header-top">
     <div class="container">
@@ -168,7 +168,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2993055a237df86ce42_69578603';
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">
@@ -351,16 +351,16 @@ $_smarty_tpl->properties['nocache_hash'] = '2993055a237df86ce42_69578603';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:2993055a237df86ce42_69578603%%*/
+/*/%%SmartyNocache:2092055ac689bddfcf6_20376110%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:3013455a237dfa46d23_96248642%%*/
-if ($_valid && !is_callable('content_55a237dfa3fce3_43683213')) {
-function content_55a237dfa3fce3_43683213 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2083655ac689bf16295_34551376%%*/
+if ($_valid && !is_callable('content_55ac689bf12206_52821827')) {
+function content_55ac689bf12206_52821827 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '3013455a237dfa46d23_96248642';
+$_smarty_tpl->properties['nocache_hash'] = '2083655ac689bf16295_34551376';
 ?>
 <div class=" rsidebar span_1_of_left">
     <div class="of-left">
@@ -477,22 +477,22 @@ $_smarty_tpl->properties['nocache_hash'] = '3013455a237dfa46d23_96248642';
         </div></a>
 </div>
 </div><?php
-/*/%%SmartyNocache:3013455a237dfa46d23_96248642%%*/
+/*/%%SmartyNocache:2083655ac689bf16295_34551376%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:2008855a237df998101_45711517%%*/
-if ($_valid && !is_callable('content_55a237df950de8_61038331')) {
-function content_55a237df950de8_61038331 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1919055ac689bed9b74_71640129%%*/
+if ($_valid && !is_callable('content_55ac689bed5951_62038348')) {
+function content_55ac689bed5951_62038348 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2008855a237df998101_45711517';
+$_smarty_tpl->properties['nocache_hash'] = '1919055ac689bed9b74_71640129';
 ?>
 <div class="container">
     <div class="col-md-3 product-price">
     
         <?php /*  Call merged included template "aside.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '3013455a237dfa46d23_96248642', 'content_55a237dfa3fce3_43683213');
+echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2083655ac689bf16295_34551376', 'content_55ac689bf12206_52821827');
 /*  End of included template "aside.tpl" */?>
 
     
@@ -536,7 +536,7 @@ echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_s
                     <li><span>LOẠI:&nbsp; Women</li>
                     <li><span>MÃ SẢN PHẨM: &nbsp; CK09</span></li>
                 </ul>
-                <a href="#" class="add-cart item_add" style="background-image: url('images/cart.png');
+                <a href="shopping_cart.php" class="add-cart item_add" style="background-image: url('images/cart.png');
   background-repeat: no-repeat;
   padding-left: 24px;
   background-position-y: 3px;
@@ -591,16 +591,16 @@ echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_s
 
     <div class="clearfix"> </div>
 </div><?php
-/*/%%SmartyNocache:2008855a237df998101_45711517%%*/
+/*/%%SmartyNocache:1919055ac689bed9b74_71640129%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:2307655a237dfbd47f7_73955734%%*/
-if ($_valid && !is_callable('content_55a237dfbcf9f6_03916675')) {
-function content_55a237dfbcf9f6_03916675 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:832255ac689c0a94e0_62282475%%*/
+if ($_valid && !is_callable('content_55ac689c0a5752_92626874')) {
+function content_55ac689c0a5752_92626874 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2307655a237dfbd47f7_73955734';
+$_smarty_tpl->properties['nocache_hash'] = '832255ac689c0a94e0_62282475';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -641,8 +641,9 @@ $_smarty_tpl->properties['nocache_hash'] = '2307655a237dfbd47f7_73955734';
 </div>
 <div class="footer-class">
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-</div><?php
-/*/%%SmartyNocache:2307655a237dfbd47f7_73955734%%*/
+</div>
+<?php
+/*/%%SmartyNocache:832255ac689c0a94e0_62282475%%*/
 }
 }
 ?>

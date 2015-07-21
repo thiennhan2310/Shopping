@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-16 11:44:03
+<?php /* Smarty version 3.1.27, created on 2015-07-20 08:21:50
          compiled from "application\templates\index.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:447555a77ce3d43d79_44176325%%*/
+/*%%SmartyHeaderCode:2404255ac937e686460_96833906%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -27,26 +27,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '185a210e1b621aa34e466cca85b2ea53af4326c2' => 
     array (
       0 => 'application\\templates\\content\\content-index.tpl',
-      1 => 1437039753,
+      1 => 1437287703,
       2 => 'file',
     ),
     'ca7a60b2fc6e5277113cfe413bb2c90b014e1353' => 
     array (
       0 => 'application\\templates\\footer.tpl',
-      1 => 1436694047,
+      1 => 1437361184,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '447555a77ce3d43d79_44176325',
+  'nocache_hash' => '2404255ac937e686460_96833906',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55a77ce47b83a8_88942075',
+  'unifunc' => 'content_55ac937edb0f23_79042803',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55a77ce47b83a8_88942075')) {
-function content_55a77ce47b83a8_88942075 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55ac937edb0f23_79042803')) {
+function content_55ac937edb0f23_79042803 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '447555a77ce3d43d79_44176325';
+$_smarty_tpl->properties['nocache_hash'] = '2404255ac937e686460_96833906';
 ?>
 <!--A Design by W3layouts 
 Author: W3layout
@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1636955a77ce4376ad6_26048820', 'content_55a77ce4373134_08857807');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2444055ac937e8d3921_51949032', 'content_55ac937e8cddc9_92123025');
 /*  End of included template "header.tpl" */?>
 
     
@@ -104,7 +104,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 	<div class="container">
         
             <?php /*  Call merged included template "banner.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1903155a77ce44a5773_17010572', 'content_55a77ce44a0db6_16912646');
+echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2834255ac937ea101e2_22910732', 'content_55ac937ea08c80_73240998');
 /*  End of included template "banner.tpl" */?>
 
         
@@ -116,7 +116,7 @@ echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_
 <div class="content">
     
         <?php /*  Call merged included template "content/content-index.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("content/content-index.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2718155a77ce4539120_51422176', 'content_55a77ce45326c4_78514156');
+echo $_smarty_tpl->getInlineSubTemplate("content/content-index.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '3152455ac937eae48d1_95757480', 'content_55ac937eadea39_83252536');
 /*  End of included template "content/content-index.tpl" */?>
 
     
@@ -126,7 +126,7 @@ echo $_smarty_tpl->getInlineSubTemplate("content/content-index.tpl", $_smarty_tp
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1355555a77ce4764586_72464738', 'content_55a77ce4760a61_38132679');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1645055ac937ed47150_45235938', 'content_55ac937ed419e5_66472685');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -136,12 +136,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 			<?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:1636955a77ce4376ad6_26048820%%*/
-if ($_valid && !is_callable('content_55a77ce4373134_08857807')) {
-function content_55a77ce4373134_08857807 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2444055ac937e8d3921_51949032%%*/
+if ($_valid && !is_callable('content_55ac937e8cddc9_92123025')) {
+function content_55ac937e8cddc9_92123025 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1636955a77ce4376ad6_26048820';
+$_smarty_tpl->properties['nocache_hash'] = '2444055ac937e8d3921_51949032';
 ?>
 <div class="header-top">
     <div class="container">
@@ -357,16 +357,16 @@ $_smarty_tpl->properties['nocache_hash'] = '1636955a77ce4376ad6_26048820';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:1636955a77ce4376ad6_26048820%%*/
+/*/%%SmartyNocache:2444055ac937e8d3921_51949032%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1903155a77ce44a5773_17010572%%*/
-if ($_valid && !is_callable('content_55a77ce44a0db6_16912646')) {
-function content_55a77ce44a0db6_16912646 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:2834255ac937ea101e2_22910732%%*/
+if ($_valid && !is_callable('content_55ac937ea08c80_73240998')) {
+function content_55ac937ea08c80_73240998 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1903155a77ce44a5773_17010572';
+$_smarty_tpl->properties['nocache_hash'] = '2834255ac937ea101e2_22910732';
 ?>
 <?php echo '<script'; ?>
  src="./js/responsiveslides.min.js"><?php echo '</script'; ?>
@@ -403,23 +403,23 @@ $_smarty_tpl->properties['nocache_hash'] = '1903155a77ce44a5773_17010572';
         </li>
     </ul>
 </div><?php
-/*/%%SmartyNocache:1903155a77ce44a5773_17010572%%*/
+/*/%%SmartyNocache:2834255ac937ea101e2_22910732%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:2718155a77ce4539120_51422176%%*/
-if ($_valid && !is_callable('content_55a77ce45326c4_78514156')) {
-function content_55a77ce45326c4_78514156 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:3152455ac937eae48d1_95757480%%*/
+if ($_valid && !is_callable('content_55ac937eadea39_83252536')) {
+function content_55ac937eadea39_83252536 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
+$_smarty_tpl->properties['nocache_hash'] = '3152455ac937eae48d1_95757480';
 ?>
 <div class="container">
     <div class="content-top">
         <h1>HÀNG MỚI & SALE</h1>
         <div class="grid-in">
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo1.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo1.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
                             <span><?php echo $_smarty_tpl->tpl_vars['logo']->value[0]->Chu_thich1;?>
@@ -429,7 +429,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                 </a>
 
 
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[0]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[0]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="col-md-4 grid-top">
@@ -441,11 +441,11 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[1]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[1]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo3.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo3.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
                             <span><?php echo $_smarty_tpl->tpl_vars['logo']->value[2]->Chu_thich1;?>
@@ -453,14 +453,14 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[2]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[2]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="clearfix"> </div>
         </div>
         <div class="grid-in">
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo4.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo4.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
                             <span><?php echo $_smarty_tpl->tpl_vars['logo']->value[3]->Chu_thich1;?>
@@ -468,11 +468,11 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[3]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[3]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo5.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo5.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
                             <span><?php echo $_smarty_tpl->tpl_vars['logo']->value[4]->Chu_thich1;?>
@@ -480,11 +480,11 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[4]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[4]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="col-md-4 grid-top">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo6.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/logo6.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-left    b-delay03 ">
                             <span><?php echo $_smarty_tpl->tpl_vars['logo']->value[5]->Chu_thich1;?>
@@ -492,7 +492,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
                         </h3>
                     </div>
                 </a>
-                <p><a href="single.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[5]->Chu_thich2;?>
+                <p><a href="products.html"><?php echo $_smarty_tpl->tpl_vars['logo']->value[5]->Chu_thich2;?>
 </a></p>
             </div>
             <div class="clearfix"> </div>
@@ -503,7 +503,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
     <div class="content-top-bottom">
         <h2>BÁN CHẠY</h2>
         <div class="col-md-6 men">
-            <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t1.jpg" alt="">
+            <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t1.jpg" alt="">
                 <div class="b-wrapper">
                     <h3 class="b-animate b-from-top top-in   b-delay03 ">
                         <span>MORE INFO</span>
@@ -515,7 +515,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
         </div>
         <div class="col-md-6">
             <div class="col-md1 ">
-                <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t2.jpg" alt="">
+                <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t2.jpg" alt="">
                     <div class="b-wrapper">
                         <h3 class="b-animate b-from-top top-in1   b-delay03 ">
                             <span>MORE INFO</span>
@@ -526,7 +526,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
             </div>
             <div class="col-md2">
                 <div class="col-md-6 men1">
-                    <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t3.jpg" alt="">
+                    <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t3.jpg" alt="">
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-top top-in2   b-delay03 ">
                                 <span>MORE INFO</span>
@@ -536,7 +536,7 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
 
                 </div>
                 <div class="col-md-6 men2">
-                    <a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t4.jpg" alt="">
+                    <a href="products.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/t4.jpg" alt="">
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-top top-in2   b-delay03 ">
                                 <span>MORE INFO</span>
@@ -564,16 +564,16 @@ $_smarty_tpl->properties['nocache_hash'] = '2718155a77ce4539120_51422176';
     </ul>
 
 </div><?php
-/*/%%SmartyNocache:2718155a77ce4539120_51422176%%*/
+/*/%%SmartyNocache:3152455ac937eae48d1_95757480%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1355555a77ce4764586_72464738%%*/
-if ($_valid && !is_callable('content_55a77ce4760a61_38132679')) {
-function content_55a77ce4760a61_38132679 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1645055ac937ed47150_45235938%%*/
+if ($_valid && !is_callable('content_55ac937ed419e5_66472685')) {
+function content_55ac937ed419e5_66472685 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1355555a77ce4764586_72464738';
+$_smarty_tpl->properties['nocache_hash'] = '1645055ac937ed47150_45235938';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -614,8 +614,9 @@ $_smarty_tpl->properties['nocache_hash'] = '1355555a77ce4764586_72464738';
 </div>
 <div class="footer-class">
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-</div><?php
-/*/%%SmartyNocache:1355555a77ce4764586_72464738%%*/
+</div>
+<?php
+/*/%%SmartyNocache:1645055ac937ed47150_45235938%%*/
 }
 }
 ?>

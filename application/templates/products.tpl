@@ -1,9 +1,3 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,20 +30,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         {include file="header.tpl"}
     {/block}
 </div>
-
-
 <!--content-->
-<!---->
-<div class="product">
-    {block name="product"}
+<div class="content">
+    {block name="content"}
         {include file="content/content-products.tpl"}
     {/block}
+    <!---->
 
 </div>
-
-<!---->
-
-<!--//content-->
 <div class="footer">
     {block name="footer"}
         {include file="footer.tpl"}

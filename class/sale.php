@@ -11,15 +11,15 @@ class sale {
     protected $db='';
     public $sale=[];
 
-    public function sale($Ma_Giam_Gia, $Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt)
+    public function sale($Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt)
     {
         $this->db=new Database();
-        $this->sale=[$Ma_Giam_Gia, $Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt];
+        $this->sale=[$Phan_Tram, $Thong_Tin, $Thoi_gian_bd, $Thoi_gian_kt];
     }
     //`Ma_Giam_Gia`, `Phan_Tram`, `Thong_Tin`, `Thoi_gian_bd`, `Thoi_gian_kt`
     public function add()
     {
-        $this->db->setQuery('insert into giam_gia values(?,?,?,?,?)');
+        $this->db->setQuery("insert into giam_gia values(NULL,?,?,?,?)");
         $this->db->execute($this->sale);
     }
     public function delete()

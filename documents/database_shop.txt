@@ -1,0 +1,10 @@
+$mysql_host = "mysql5.000webhost.com";
+$mysql_database = "a2543048_shop";
+$mysql_user = "a2543048_shop";
+$mysql_password = "thiennhan152322";
+
+--------Sua---------
+$mysql_host = "mysql5.000webhost.com";
+$mysql_database = "a2543048_sua";
+$mysql_user = "a2543048_sua";
+$mysql_password = "thiennhan152322";

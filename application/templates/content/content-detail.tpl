@@ -66,7 +66,7 @@
                     <li><span>LOẠI:&nbsp; Women</li>
                     <li><span>MÃ SẢN PHẨM: &nbsp; CK09</span></li>
                 </ul>
-                <a href="#" class="add-cart item_add" style="background-image: url('images/cart.png');
+                <a href="shopping_cart.php" class="add-cart item_add" style="background-image: url('images/cart.png');
   background-repeat: no-repeat;
   padding-left: 24px;
   background-position-y: 3px;
