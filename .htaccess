@@ -2,5 +2,7 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^products.html$ http://localhost/Shopping/products.php
+
 RewriteRule ^products-([0-9]+)\.html$ http://localhost/Shopping/products.php?page=$1
+RewriteRule ^trang-chu.html$ http://localhost/Shopping/index.php
+RewriteRule ^san-pham/danh-sach-san-pham.html$ http://localhost/Shopping/index.php?site=danh-sach-san-pham
