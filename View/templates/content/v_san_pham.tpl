@@ -10,7 +10,7 @@
                 {if $ds[$j]->Hinh != ''}
             <div class="col-md-4 bottom-cd simpleCart_shelfItem"> {*td=3*}
                 <div class="product-at ">
-                    <a href="detail.php"><img class="img-responsive" src="{root}/products/{$ds[$j]->Hinh}" alt="">
+                    <a href="{root}/chi-tiet/{$ds[$j]->Ma_Loai}/{$ds[$j]->Ma_San_Pham}.html"><img class="img-responsive" src="{root}/products/{$ds[$j]->Hinh}" alt="">
                         <div class="pro-grid">
                             <span class="buy-in">BUY NOW</span>
                         </div>

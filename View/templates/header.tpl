@@ -29,7 +29,7 @@
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="trang-chu.html"><img src="{root}/images/logo.png" alt=""></a>
+            <a href="{root}/trang-chu.html"><img src="{root}/images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
             <ul class="memenu skyblue">

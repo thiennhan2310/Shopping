@@ -7,17 +7,17 @@ class m_san_pham extends Database
     }
     public function san_pham_theo_ma($ma)
     {
-        $this->setQuery('select * from san_pham where ma_san_pham=?');
+        $this->setQuery('select * from san_pham where Ma_San_Pham=?');
         return $this->loadAllRow([$ma]);
     }
         public function san_pham_theo_loai($loai)
     {
-        $this->setQuery('select * from san_pham where ma_loai=?');
+        $this->setQuery('select * from san_pham where Ma_Loai=?');
         return $this->loadAllRow([$loai]);
     }
         public function san_pham_cung_loai($loai,$id)
     {
-        $this->setQuery('select * from san_pham where ma_loai=? and ma_san_pham=?');
+        $this->setQuery('select * from san_pham where Ma_Loai=? and Ma_San_Pham!=?');
         return $this->loadAllRow([$loai,$id]);
     }
         public function san_pham_moi()

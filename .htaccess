@@ -5,4 +5,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^products-([0-9]+)\.html$ http://localhost/Shopping/products.php?page=$1
 RewriteRule ^trang-chu.html$ http://localhost/Shopping/index.php
+RewriteRule ^gio-hang/([0-9]+).html$ http://localhost/Shopping/index.php?site=gio-hang&ma_san_pham=$1
+RewriteRule ^gio-hang.html$ http://localhost/Shopping/index.php?site=gio-hang
 RewriteRule ^san-pham/danh-sach-san-pham.html$ http://localhost/Shopping/index.php?site=danh-sach-san-pham
+RewriteRule ^san-pham/danh-sach-san-pham/([0-9]+).html$ http://localhost/Shopping/index.php?site=danh-sach-san-pham&loai=$1
+RewriteRule ^chi-tiet/([0-9]+)/([0-9]+).html$ http://localhost/Shopping/index.php?site=chi-tiet&ma_loai=$1&ma_san_pham=$2

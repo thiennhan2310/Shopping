@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-22 08:34:48
+<?php /* Smarty version 3.1.27, created on 2015-07-22 09:52:14
          compiled from "View\templates\content\v_trang_chu.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:739155af39882f92a7_65169680%%*/
+/*%%SmartyHeaderCode:3128955af4baea8c2e3_25377074%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -21,7 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c59c91ead4b3227048ee191d5644a2cd9777b654' => 
     array (
       0 => 'View\\templates\\header.tpl',
-      1 => 1437541786,
+      1 => 1437551518,
       2 => 'file',
     ),
     '30447f97681c2ba129febecaed71e02dc2533d94' => 
@@ -39,24 +39,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f0cab46561d830af9bfcd1384462e5b1f4a7f9d6' => 
     array (
       0 => 'View\\templates\\footer.tpl',
-      1 => 1437538690,
+      1 => 1437551531,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '739155af39882f92a7_65169680',
+  'nocache_hash' => '3128955af4baea8c2e3_25377074',
   'variables' => 
   array (
     'root' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55af39889371b1_87482296',
+  'unifunc' => 'content_55af4baf369637_80384137',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55af39889371b1_87482296')) {
-function content_55af39889371b1_87482296 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55af4baf369637_80384137')) {
+function content_55af4baf369637_80384137 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '739155af39882f92a7_65169680';
+$_smarty_tpl->properties['nocache_hash'] = '3128955af4baea8c2e3_25377074';
 ?>
 <!--A Design by W3layouts 
 Author: W3layout
@@ -110,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '510955af39885a6907_69460147', 'content_55af39885a2294_97762340');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '47955af4baeca2933_26304943', 'content_55af4baec9c213_85501683');
 /*  End of included template "header.tpl" */?>
 
     
@@ -120,7 +120,7 @@ echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_
 	<div class="container">
         
             <?php /*  Call merged included template "banner.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1023555af39886c8422_26905024', 'content_55af39886c41e3_53969986');
+echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '24555af4baeded986_35668911', 'content_55af4baede2cb4_02545595');
 /*  End of included template "banner.tpl" */?>
 
         
@@ -130,7 +130,7 @@ echo $_smarty_tpl->getInlineSubTemplate("banner.tpl", $_smarty_tpl->cache_id, $_
 <!--content-->
 <div class="content">
     <?php
-$_smarty_tpl->properties['nocache_hash'] = '739155af39882f92a7_65169680';
+$_smarty_tpl->properties['nocache_hash'] = '3128955af4baea8c2e3_25377074';
 ?>
 
 <div class="container">
@@ -256,7 +256,7 @@ $_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1647055af39888ebaf9_59899265', 'content_55af39888e78a4_55071188');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1666455af4baf2d3c76_87249611', 'content_55af4baf2c1542_23294845');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -266,12 +266,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 			<?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:510955af39885a6907_69460147%%*/
-if ($_valid && !is_callable('content_55af39885a2294_97762340')) {
-function content_55af39885a2294_97762340 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:47955af4baeca2933_26304943%%*/
+if ($_valid && !is_callable('content_55af4baec9c213_85501683')) {
+function content_55af4baec9c213_85501683 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '510955af39885a6907_69460147';
+$_smarty_tpl->properties['nocache_hash'] = '47955af4baeca2933_26304943';
 ?>
 <div class="header-top">
     <div class="container">
@@ -305,7 +305,8 @@ $_smarty_tpl->properties['nocache_hash'] = '510955af39885a6907_69460147';
 <div class="container">
     <div class="head-top">
         <div class="logo">
-            <a href="trang-chu.html"><img src="<?php echo root;?>
+            <a href="<?php echo root;?>
+/trang-chu.html"><img src="<?php echo root;?>
 /images/logo.png" alt=""></a>
         </div>
         <div class=" h_menu4">
@@ -489,16 +490,16 @@ $_smarty_tpl->properties['nocache_hash'] = '510955af39885a6907_69460147';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:510955af39885a6907_69460147%%*/
+/*/%%SmartyNocache:47955af4baeca2933_26304943%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1023555af39886c8422_26905024%%*/
-if ($_valid && !is_callable('content_55af39886c41e3_53969986')) {
-function content_55af39886c41e3_53969986 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:24555af4baeded986_35668911%%*/
+if ($_valid && !is_callable('content_55af4baede2cb4_02545595')) {
+function content_55af4baede2cb4_02545595 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1023555af39886c8422_26905024';
+$_smarty_tpl->properties['nocache_hash'] = '24555af4baeded986_35668911';
 ?>
 <?php echo '<script'; ?>
  src="./js/responsiveslides.min.js"><?php echo '</script'; ?>
@@ -535,16 +536,16 @@ $_smarty_tpl->properties['nocache_hash'] = '1023555af39886c8422_26905024';
         </li>
     </ul>
 </div><?php
-/*/%%SmartyNocache:1023555af39886c8422_26905024%%*/
+/*/%%SmartyNocache:24555af4baeded986_35668911%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:1647055af39888ebaf9_59899265%%*/
-if ($_valid && !is_callable('content_55af39888e78a4_55071188')) {
-function content_55af39888e78a4_55071188 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1666455af4baf2d3c76_87249611%%*/
+if ($_valid && !is_callable('content_55af4baf2c1542_23294845')) {
+function content_55af4baf2c1542_23294845 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '1647055af39888ebaf9_59899265';
+$_smarty_tpl->properties['nocache_hash'] = '1666455af4baf2d3c76_87249611';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -553,7 +554,8 @@ $_smarty_tpl->properties['nocache_hash'] = '1647055af39888ebaf9_59899265';
 
             <ul class="nav-bottom">
                 <li class="logo">
-                        <a href="trang-chu.html"><img src="<?php echo $_smarty_tpl->tpl_vars['root']->value;?>
+                        <a href="<?php echo root;?>
+/trang-chu.html"><img src="<?php echo $_smarty_tpl->tpl_vars['root']->value;?>
 /images/logo.png" alt=""></a>
                     </li>
                 <div class="clearfix"> </div>
@@ -588,7 +590,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1647055af39888ebaf9_59899265';
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div>
 <?php
-/*/%%SmartyNocache:1647055af39888ebaf9_59899265%%*/
+/*/%%SmartyNocache:1666455af4baf2d3c76_87249611%%*/
 }
 }
 ?>

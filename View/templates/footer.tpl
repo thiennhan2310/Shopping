@@ -5,7 +5,7 @@
 
             <ul class="nav-bottom">
                 <li class="logo">
-                        <a href="trang-chu.html"><img src="{$root}/images/logo.png" alt=""></a>
+                        <a href="{root}/trang-chu.html"><img src="{$root}/images/logo.png" alt=""></a>
                     </li>
                 <div class="clearfix"> </div>
                 <li><a href="#">Thanh Toán</a></li>

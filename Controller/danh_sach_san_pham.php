@@ -18,10 +18,26 @@ class danh_sach_san_pham
         $this->pager = new Pager();
         $this->san_pham=new m_san_pham();
     }
-    public function display()
+    private function danh_sach_san_pham()
     {
         $danh_sach=$this->san_pham->danh_sach_san_pham();
         $this->smarty->assign('ds',$danh_sach);
+    }
+    private function danh_sach_cung_loai($loai)
+    {
+        $danh_sach=$this->san_pham->san_pham_theo_loai($loai);
+        $this->smarty->assign('ds',$danh_sach);
+    }
+    public function display($loai=NULL)
+    {
+        if(!is_null($loai))
+        {
+            $this->danh_sach_cung_loai($loai);
+        }
+        else
+        {
+            $this->danh_sach_san_pham();
+        }
         $this->smarty->display('content/v_san_pham.tpl');
     }
 }

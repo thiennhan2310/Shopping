@@ -1,4 +1,4 @@
-{extends file="d.tpl"}
+{extends file="detail.tpl"}
 {block name="content"}
 <div class="container">
     <div class="col-md-3 product-price">
@@ -11,7 +11,7 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li >
-                        <img src="images/si.jpg" />
+                        <img src="{root}/products/{$sp[0]->Hinh}" />
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                     <li><span>LOẠI:&nbsp; Women</li>
                     <li><span>MÃ SẢN PHẨM: &nbsp; CK09</span></li>
                 </ul>
-                <a href="shopping_cart.php" class="add-cart item_add" style="background-image: url('images/cart.png');
+                <a href="{root}/gio-hang/{$sp[0]->Ma_San_Pham}.html" class="add-cart item_add" style="background-image: url('{root}/images/cart.png');
   background-repeat: no-repeat;
   padding-left: 24px;
   background-position-y: 3px;
@@ -146,13 +146,13 @@
         </div>*}
         <div class="of-left" style="  padding-left: 15px;
   padding-top: 70px;">
-            <h3 class="cate">SẢN PHẨM CÙNG LOẠI</h3>
+            <h3 class="cate">SẢN PHẨM CÙNG LOẠI <a href="{root}/san-pham/danh-sach-san-pham/{$sp_cung_loai[0]->Ma_Loai}.html"><span style="float:right;font-size: 15px; background-color: #EF5F21" class="badge">{count($sp_cung_loai)} sản phẩm</span></a></h3>
         </div>
         <div class=" bottom-product">
+            {foreach $sp_cung_loai as $sp}
             <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-
                 <div class="product-at ">
-                    <a href="#"><img class="img-responsive" src="images/pi3.jpg" alt="">
+                    <a href="{root}/san-pham/chi-tiet/{$sp->Ma_Loai}/{$sp->Ma_San_Pham}.html"><img class="img-responsive" src="{root}/products/{$sp->Hinh}" alt="">
                         <div class="pro-grid">
                             <span class="buy-in">Buy Now</span>
                         </div>
@@ -161,26 +161,7 @@
                 <p class="tun">It is a long established fact that a reader</p>
                 <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
             </div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="#"><img class="img-responsive" src="images/pi1.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                <div class="product-at ">
-                    <a href="#"><img class="img-responsive" src="images/pi4.jpg" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">Buy Now</span>
-                        </div>
-                    </a>
-                </div>
-                <p class="tun">It is a long established fact that a reader</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>					</div>
+            {/foreach}
             <div class="clearfix"> </div>
         </div>
     </div>

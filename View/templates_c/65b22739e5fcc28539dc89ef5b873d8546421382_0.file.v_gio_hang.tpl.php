@@ -1,21 +1,21 @@
-<?php /* Smarty version 3.1.27, created on 2015-07-22 10:35:45
-         compiled from "View\templates\content\v_san_pham.tpl" */ ?>
+<?php /* Smarty version 3.1.27, created on 2015-07-22 16:39:20
+         compiled from "View\templates\content\v_gio_hang.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1101555af55e17de010_92305023%%*/
+/*%%SmartyHeaderCode:1908255afab1851cef7_22222654%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'd864767096c404e5c06329c0c8f0643e3d37205e' => 
+    '65b22739e5fcc28539dc89ef5b873d8546421382' => 
     array (
-      0 => 'View\\templates\\content\\v_san_pham.tpl',
-      1 => 1437554125,
+      0 => 'View\\templates\\content\\v_gio_hang.tpl',
+      1 => 1437575940,
       2 => 'file',
     ),
-    '2df0cccd02779d7f215b76700daa6c0d94d9fbce' => 
+    '5439381fe06fdf52293c68dec649b0b79ac24189' => 
     array (
-      0 => 'View\\templates\\products.tpl',
-      1 => 1437535891,
+      0 => 'View\\templates\\cart.tpl',
+      1 => 1437557442,
       2 => 'file',
     ),
     'c59c91ead4b3227048ee191d5644a2cd9777b654' => 
@@ -24,17 +24,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1437551518,
       2 => 'file',
     ),
-    '07931590180efe19ace98be4d81d69b718f6f08d' => 
+    'e5c9f1fa7c15516739adb4b47dc06f4680f39075' => 
     array (
-      0 => '07931590180efe19ace98be4d81d69b718f6f08d',
+      0 => 'e5c9f1fa7c15516739adb4b47dc06f4680f39075',
       1 => 0,
       2 => 'string',
-    ),
-    '16206fae0218a240382577b23e4e26b30dea9fce' => 
-    array (
-      0 => 'View\\templates\\aside.tpl',
-      1 => 1437542051,
-      2 => 'file',
     ),
     'f0cab46561d830af9bfcd1384462e5b1f4a7f9d6' => 
     array (
@@ -43,21 +37,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1101555af55e17de010_92305023',
+  'nocache_hash' => '1908255afab1851cef7_22222654',
   'variables' => 
   array (
     'root' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55af55e22e9f46_57432033',
+  'unifunc' => 'content_55afab18ae80b9_67798150',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55af55e22e9f46_57432033')) {
-function content_55af55e22e9f46_57432033 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55afab18ae80b9_67798150')) {
+function content_55afab18ae80b9_67798150 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1101555af55e17de010_92305023';
+$_smarty_tpl->properties['nocache_hash'] = '1908255afab1851cef7_22222654';
 ?>
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -104,78 +104,127 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
     
         <?php /*  Call merged included template "header.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2927755af55e1b2dc82_44877037', 'content_55af55e1b26871_94504671');
+echo $_smarty_tpl->getInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1154455afab186cba00_96291139', 'content_55afab186c83c0_42059212');
 /*  End of included template "header.tpl" */?>
 
     
+
 </div>
-<!--content-->
-<div class="content">
-    <?php
-$_smarty_tpl->properties['nocache_hash'] = '1101555af55e17de010_92305023';
-?>
+
 
 <div class="container">
-    <div class="col-md-3 product-price">
-       <?php /*  Call merged included template "aside.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("aside.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '2038455af55e1d8fd09_12996175', 'content_55af55e1d81ff2_77371138');
-/*  End of included template "aside.tpl" */?>
+    <?php
+$_smarty_tpl->properties['nocache_hash'] = '1908255afab1851cef7_22222654';
+?>
 
-    <div class="col-md-9 product1">
-        <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['i']->step = 3;$_smarty_tpl->tpl_vars['i']->total = (int) ceil(($_smarty_tpl->tpl_vars['i']->step > 0 ? 8+1 - (0) : 0-(8)+1)/abs($_smarty_tpl->tpl_vars['i']->step));
-if ($_smarty_tpl->tpl_vars['i']->total > 0) {
-for ($_smarty_tpl->tpl_vars['i']->value = 0, $_smarty_tpl->tpl_vars['i']->iteration = 1;$_smarty_tpl->tpl_vars['i']->iteration <= $_smarty_tpl->tpl_vars['i']->total;$_smarty_tpl->tpl_vars['i']->value += $_smarty_tpl->tpl_vars['i']->step, $_smarty_tpl->tpl_vars['i']->iteration++) {
-$_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
-        <div class=" bottom-product"> 
-            <?php $_smarty_tpl->tpl_vars['j'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['j']->step = 1;$_smarty_tpl->tpl_vars['j']->total = (int) min(ceil(($_smarty_tpl->tpl_vars['j']->step > 0 ? 8+1 - ($_smarty_tpl->tpl_vars['i']->value) : $_smarty_tpl->tpl_vars['i']->value-(8)+1)/abs($_smarty_tpl->tpl_vars['j']->step)),3);
-if ($_smarty_tpl->tpl_vars['j']->total > 0) {
-for ($_smarty_tpl->tpl_vars['j']->value = $_smarty_tpl->tpl_vars['i']->value, $_smarty_tpl->tpl_vars['j']->iteration = 1;$_smarty_tpl->tpl_vars['j']->iteration <= $_smarty_tpl->tpl_vars['j']->total;$_smarty_tpl->tpl_vars['j']->value += $_smarty_tpl->tpl_vars['j']->step, $_smarty_tpl->tpl_vars['j']->iteration++) {
-$_smarty_tpl->tpl_vars['j']->first = $_smarty_tpl->tpl_vars['j']->iteration == 1;$_smarty_tpl->tpl_vars['j']->last = $_smarty_tpl->tpl_vars['j']->iteration == $_smarty_tpl->tpl_vars['j']->total;?>
-                <?php if ($_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Hinh != '') {?>
-            <div class="col-md-4 bottom-cd simpleCart_shelfItem"> 
-                <div class="product-at ">
-                    <a href="<?php echo root;?>
-/chi-tiet/<?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Ma_Loai;?>
-/<?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Ma_San_Pham;?>
-.html"><img class="img-responsive" src="<?php echo root;?>
-/products/<?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Hinh;?>
-" alt="">
-                        <div class="pro-grid">
-                            <span class="buy-in">BUY NOW</span>
-                        </div>
-                    </a>
+<style>
+
+</style>
+<div class="check"><form action="<?php echo root;?>
+/index.php?site=gio-hang" method="post">
+    <h1>GIỎ HÀNG <button type="submit" style="background-color: #EF5F21;margin-left: 57%;font-family: 'Lato', sans-serif;font-size: 1em;"
+                         class="btn btn-warning">Cập nhật</button></h1>
+    <div class="col-md-9 cart-items">
+        <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable(1, null, 0);?>
+        <?php
+$_from = $_smarty_tpl->tpl_vars['gio_hang']->value;
+if (!is_array($_from) && !is_object($_from)) {
+settype($_from, 'array');
+}
+$_smarty_tpl->tpl_vars['sp'] = new Smarty_Variable;
+$_smarty_tpl->tpl_vars['sp']->_loop = false;
+foreach ($_from as $_smarty_tpl->tpl_vars['sp']->value) {
+$_smarty_tpl->tpl_vars['sp']->_loop = true;
+$foreach_sp_Sav = $_smarty_tpl->tpl_vars['sp'];
+?>
+
+        <?php echo '<script'; ?>
+>$(document).ready(function(c) {
+                $('#close<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+').on('click', function(c){
+                    $('#cart<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+').fadeOut('slow', function(c){
+                        $('#cart<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+').remove();
+                    });
+                });
+            });
+        <?php echo '</script'; ?>
+>
+        <div class="cart-header" id="cart<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+">
+            <div class="close1" id="close<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+"> </div>
+            <div class="cart-sec simpleCart_shelfItem">
+                <div class="cart-item cyc">
+                    <img src="<?php echo root;?>
+/products/<?php echo $_smarty_tpl->tpl_vars['sp']->value->Hinh;?>
+" class="img-responsive" alt=""/>
                 </div>
-                <p class="tun"><?php echo $_smarty_tpl->tpl_vars['ds']->value[$_smarty_tpl->tpl_vars['j']->value]->Ten_sua;?>
-</p>
-                <a href="#" class="item_add"><p class="number item_price"><i> </i>$500.00</p></a>
+                <div class="cart-item-info">
+                    <h3><a href="#"><?php echo $_smarty_tpl->tpl_vars['sp']->value->Ten_San_Pham;?>
+</a><span>Mã Sản Phẩm: <?php echo $_smarty_tpl->tpl_vars['sp']->value->Ma_San_Pham;?>
+</span></h3>
+
+
+                    <ul class="qty">
+                        <li><p>Số lượng : <input type="number" style="width: 50px" value="1" min="1" name="so_luong<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+"/></p></li>
+                        <input type="hidden" name="ma_sp" value="<?php echo $_smarty_tpl->tpl_vars['sp']->value->Ma_San_Pham;?>
+"/>
+                        <li><p>Đơn Giá:<?php echo number_format($_smarty_tpl->tpl_vars['sp']->value->Gia);?>
+  VNĐ</p></li>
+                    </ul>
+                    </form>
+                    
+                </div>
+                <div class="clearfix"></div>
+
             </div>
-                <?php }?>
-            <?php }} ?>
-
-
-            <div class="clearfix"> </div>
         </div>
-        <?php }} ?>
 
+          <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable($_smarty_tpl->tpl_vars['i']->value+1, null, 0);?>
+        <?php
+$_smarty_tpl->tpl_vars['sp'] = $foreach_sp_Sav;
+}
+?>
     </div>
-    <div class="clearfix"> </div>
-    <nav class="in">
-       <ul class="pagination">
-        
-            <?php echo $_smarty_tpl->tpl_vars['link_trang']->value;?>
-
+    <div class="col-md-3 cart-total">
+        <a class="continue" href="#">TIẾP TỤC MUA THÊM</a>
+        <div class="price-details">
+            <h3>CHI TIẾT HÓA ĐƠN</h3>
+            <span>Tiền Hàng</span>
+            <span class="total1">0</span>
+            <span>Discount</span>
+            <span class="total1">---</span>
+            <span>Phí Ship</span>
+            <span class="total1">30.000 </span>
+            <div class="clearfix"></div>
+        </div>
+        <ul class="total_price">
+            <li class="last_price"> <h4>Tổng Cộng</h4></li>
+            <li class="last_price"><span>0</span> VNĐ</li>
+            <div class="clearfix"> </div>
         </ul>
 
-    </nav>
+
+        <div class="clearfix"></div>
+        <a class="order" href="<?php echo root;?>
+/don-hang/xac-nhan.html">XÁC NHẬN GIỎ HÀNG</a>
+        
+    </div>
+
+    <div class="clearfix"> </div>
 </div>
 
-    <!---->
-
 </div>
+
+
+<!--//content-->
 <div class="footer">
     
         <?php /*  Call merged included template "footer.tpl" */
-echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '3254255af55e224b3d8_88240464', 'content_55af55e2246d44_55358838');
+echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, '1071155afab18a8bdb0_69399721', 'content_55afab18a87694_73215628');
 /*  End of included template "footer.tpl" */?>
 
     
@@ -185,12 +234,12 @@ echo $_smarty_tpl->getInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_
 <?php }
 }
 ?><?php
-/*%%SmartyHeaderCode:2927755af55e1b2dc82_44877037%%*/
-if ($_valid && !is_callable('content_55af55e1b26871_94504671')) {
-function content_55af55e1b26871_94504671 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1154455afab186cba00_96291139%%*/
+if ($_valid && !is_callable('content_55afab186c83c0_42059212')) {
+function content_55afab186c83c0_42059212 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2927755af55e1b2dc82_44877037';
+$_smarty_tpl->properties['nocache_hash'] = '1154455afab186cba00_96291139';
 ?>
 <div class="header-top">
     <div class="container">
@@ -409,146 +458,16 @@ $_smarty_tpl->properties['nocache_hash'] = '2927755af55e1b2dc82_44877037';
     </div>
 </div>
 <?php
-/*/%%SmartyNocache:2927755af55e1b2dc82_44877037%%*/
+/*/%%SmartyNocache:1154455afab186cba00_96291139%%*/
 }
 }
 ?><?php
-/*%%SmartyHeaderCode:2038455af55e1d8fd09_12996175%%*/
-if ($_valid && !is_callable('content_55af55e1d81ff2_77371138')) {
-function content_55af55e1d81ff2_77371138 ($_smarty_tpl) {
+/*%%SmartyHeaderCode:1071155afab18a8bdb0_69399721%%*/
+if ($_valid && !is_callable('content_55afab18a87694_73215628')) {
+function content_55afab18a87694_73215628 ($_smarty_tpl) {
 ?>
 <?php
-$_smarty_tpl->properties['nocache_hash'] = '2038455af55e1d8fd09_12996175';
-?>
-<div class=" rsidebar span_1_of_left" style="margin-top: 20px">
-    <div class="of-left">
-        <h3 class="cate">SUB MENU</h3>
-    </div>
-    <ul class="menu">
-        <li class="item1"><a href="#">Men </a>
-            <ul class="cute">
-                <li class="subitem1"><a href="#">Cute Kittens </a></li>
-                <li class="subitem2"><a href="#">Strange Stuff </a></li>
-                <li class="subitem3"><a href="#">Automatic Fails </a></li>
-            </ul>
-        </li>
-        <li class="item2"><a href="#">Women </a>
-            <ul class="cute">
-                <li class="subitem1"><a href="#">Cute Kittens </a></li>
-                <li class="subitem2"><a href="#">Strange Stuff </a></li>
-                <li class="subitem3"><a href="#">Automatic Fails </a></li>
-            </ul>
-        </li>
-        <li class="item3"><a href="#">Kids</a>
-            <ul class="cute">
-                <li class="subitem1"><a href="#">Cute Kittens </a></li>
-                <li class="subitem2"><a href="#">Strange Stuff </a></li>
-                <li class="subitem3"><a href="#">Automatic Fails</a></li>
-            </ul>
-        </li>
-        <li class="item4"><a href="#">Accesories</a>
-            <ul class="cute">
-                <li class="subitem1"><a href="#">Cute Kittens </a></li>
-                <li class="subitem2"><a href="#">Strange Stuff </a></li>
-                <li class="subitem3"><a href="#">Automatic Fails</a></li>
-            </ul>
-        </li>
-
-        <li class="item4"><a href="#">Shoes</a>
-            <ul class="cute">
-                <li class="subitem1"><a href="#">Cute Kittens </a></li>
-                <li class="subitem2"><a href="#">Strange Stuff </a></li>
-                <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<!--initiate accordion-->
-<?php echo '<script'; ?>
- type="text/javascript">
-    $(function() {
-        var menu_ul = $('.menu > li > ul'),
-                menu_a  = $('.menu > li > a');
-        menu_ul.hide();
-        menu_a.click(function(e) {
-            e.preventDefault();
-            if(!$(this).hasClass('active')) {
-                menu_a.removeClass('active');
-                menu_ul.filter(':visible').slideUp('normal');
-                $(this).addClass('active').next().stop(true,true).slideDown('normal');
-            } else {
-                $(this).removeClass('active');
-                $(this).next().stop(true,true).slideUp('normal');
-            }
-        });
-
-    });
-<?php echo '</script'; ?>
->
-<!---->
-<div class="product-middle">
-    <img src="<?php echo $_smarty_tpl->tpl_vars['root']->value;?>
-/images/logo.png" alt="">
-Logo Cong Ty
-</div>
-
-<!---->
-<div class="product-bottom">
-    <div class="of-left-in">
-        <h3 class="best">Best Sellers</h3>
-    </div>
-    <div class="product-go">
-        <div class=" fashion-grid">
-            <a href="#"><img class="img-responsive " src="<?php echo root;?>
-/images/p1.jpg" alt=""></a>
-
-        </div>
-        <div class=" fashion-grid1">
-            <h6 class="best2"><a href="#" >Lorem ipsum dolor sit
-                    amet consectetuer  </a></h6>
-
-            <span class=" price-in1">40000 VNĐ</span>
-        </div>
-
-        <div class="clearfix"> </div>
-    </div>
-    <div class="product-go">
-        <div class=" fashion-grid">
-            <a href="#"><img class="img-responsive " src="<?php echo root;?>
-/images/p2.jpg" alt=""></a>
-
-        </div>
-        <div class="fashion-grid1">
-            <h6 class="best2"><a href="#" >Lorem ipsum dolor sit
-                    amet consectetuer </a></h6>
-
-            <span class=" price-in1">40000 VNĐ</span>
-        </div>
-
-        <div class="clearfix"> </div>
-    </div>
-
-</div>
-<div class=" per1">
-    <a href="#" ><img class="img-responsive" src="<?php echo root;?>
-/images/pro.jpg" alt="">
-        <div class="six1">
-            <h4>HÌNH</h4>
-            <p>DISCOUNT CÙNG </p>
-            <span>HÀNG</span>
-        </div></a>
-</div>
-</div><?php
-/*/%%SmartyNocache:2038455af55e1d8fd09_12996175%%*/
-}
-}
-?><?php
-/*%%SmartyHeaderCode:3254255af55e224b3d8_88240464%%*/
-if ($_valid && !is_callable('content_55af55e2246d44_55358838')) {
-function content_55af55e2246d44_55358838 ($_smarty_tpl) {
-?>
-<?php
-$_smarty_tpl->properties['nocache_hash'] = '3254255af55e224b3d8_88240464';
+$_smarty_tpl->properties['nocache_hash'] = '1071155afab18a8bdb0_69399721';
 ?>
 <div class="container">
     <div class="footer-top-at">
@@ -593,7 +512,7 @@ $_smarty_tpl->properties['nocache_hash'] = '3254255af55e224b3d8_88240464';
     <p >© 2015 TÊN SHOP | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 </div>
 <?php
-/*/%%SmartyNocache:3254255af55e224b3d8_88240464%%*/
+/*/%%SmartyNocache:1071155afab18a8bdb0_69399721%%*/
 }
 }
 ?>
